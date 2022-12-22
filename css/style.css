@@ -1,0 +1,393 @@
+/* Body styles */
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+   }
+   .outer_wrap{
+        width: 100%;
+        background-color: #fafafa;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* Header style starts */
+    #header{
+       
+        background-color:white;
+        border-bottom: solid 2px #ccc;  
+        
+    }
+  
+    .headerInner{
+        margin-left: 3%;
+        margin-right: 3%;
+        display: flex; 
+    }
+    
+    .main_nav ol li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+        text-transform: capitalize;
+    }
+    .main_nav ol li a{
+        text-decoration: none;
+        color: #000;    
+        font-weight: 500;    
+    }
+    .main_nav ol li a:hover{
+        color:red;
+        border-bottom: solid 2px red;
+    }
+    .contactUs_wrap{
+        
+        font-size: 15px;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+    
+    .width-100{
+        width: 100%;
+    }
+    .contactUs_wrap{
+        padding-left: 15px;
+        border-left: solid 1px #ccc;
+        margin-left: auto;
+    }
+    .contactUs_wrap a{
+        color: #000;
+        text-decoration: none;
+        
+    }
+    .contactUs_wrap a::before {
+        background-position: 413px -366px;
+        width: 22px;
+        height: 22px;
+    }
+    .contactUs_wrap a::before {
+        background-image: url("https://static3.toyotabharat.com/images/sprite-1300x1200.png");
+        display: inline-block;
+        content: "";
+        vertical-align: middle;
+        margin-right: 6px;
+    }
+    .logowrap{
+        padding-top: 10px;
+    }
+    .service_wrap{
+        display: flex;
+        background-color: #fafafa;
+        margin-top: 10px;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .quick-link::before {
+        content: "";
+        background-image: url("https://static3.toyotabharat.com/images/sprite-1300x1200.png");
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+        margin-right: 5px;
+        transition: transform .5s;
+    }
+    .quick-link.find_wrap::before {
+        background-position: -200px 0px;
+   
+       
+       
+    }
+    .quick-link.test_wrap::before{
+        background-position:-265px 0px;
+       
+       
+    }
+    .quick-link.price_wrap::before{
+        background-position:-327px 6px;
+
+    }
+    .quick-link.ebook_wrap::before{
+        background-position:-394px 6px;
+
+    }
+    .quick-link.brochure_wrap::before{
+        background-position:-458px 5px;
+     
+
+    }
+    .quick-link.exchange_wrap::before{
+        background-position: -531px 6px;
+   
+    }
+    .service_wrap .quick-link a{
+        color: #222;
+        text-decoration:none;
+        font-size: 14px;
+    }
+    .quick-link{
+      text-align: center;
+    flex-grow: 1;
+    border-left: solid 1px #ccc;
+    }
+    .quick-link.find_wrap{
+        border-left: 0px;
+   }
+   .discover_wrap{
+    text-align: center;
+    font-size: 16px;
+   
+   }
+   .models_wrap{
+    display: flex;
+   }
+ 
+.models_wrap .glanza span::after {
+    background-position: -6px -566px;
+    width: 147px;
+    height: 80px;
+    
+    
+}
+.models_wrap span::after {
+    background-image: url("https://static3.toyotabharat.com/images/sprite-1300x1200.png");
+    display: inline-block;
+    content: "";
+    vertical-align: middle;
+   
+   
+}
+.models_wrap .urban span::after{
+    background-position: -337px -655px;
+    width: 151px;
+    height: 80px;
+}
+.models_wrap .innova span::after{
+    background-position: 520px -129px;
+    width: 139px;
+    height: 80px;
+}
+.models_wrap .hilux span::after{
+    background-position: -5px -653px;
+    width: 164px;
+    height: 80px;
+}
+.models_wrap .fortuner span::after{
+    background-position: -186px -657px;
+    width: 151px;
+    height: 80px;
+}
+.models_wrap .legender span::after{
+    background-position: 1146px -224px;
+    width: 154px;
+    height: 80px;
+}
+.models_wrap .camry span::after{
+    background-position:0 -212px;
+    width: 151px;
+    height: 80px;
+}
+.models_wrap .vellfire span::after{
+    background-position: -176px -566px;
+    width: 151px;
+    height: 80px;
+}
+.models_wrap>div{
+  
+    flex-grow: 1;
+}
+.whats_wrap{
+    text-align: center;
+}
+.cars{
+    display: flex;
+}
+.cars>div{
+    flex-grow: 1;
+}
+.btn_red{
+    background-color: #EB0A1E;
+    color: white;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    display:inline-block;
+    padding: 15px 25px;
+    font-weight:300;
+    
+    
+}
+.btn_red:hover{
+  background-color: #e10a1d;
+ 
+}
+.news{
+   
+    margin-left: 50px;
+    display: flex;
+}
+news_wrap{
+    display: flex;
+
+}
+.newsdate{
+    display: flex;
+}
+.block_wrap{
+    display: flex;
+    font-size: 13px;
+   
+   
+}
+.block_wrap1{
+    text-decoration: none;
+    color: #000;
+}
+.date{
+    text-align: center;
+    margin-right: 30px;
+    color: #787878;
+    
+}
+.toyota{
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+   color: #000000;
+    font-weight:300;
+    border-left: 2px solid #eae8e8;
+}
+.footer{
+    background-color: #333333;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.footer_wrap{
+    display: flex;
+    flex-grow: 1;
+    margin-left: 30px;
+    border-bottom: 1px solid #908c8c;
+   
+}
+.footer_wrap1{
+   
+    color: #DDDDDD;
+    position: relative;
+    border-right: 1px solid #908c8c;
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 15px;
+    border-left: solid 0px #ccc;
+    margin-left: auto;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-top:28px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-bottom:28px;
+    
+  
+}
+.footerend{
+    
+    display: flex;
+  
+    color: #DDDDDD;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.top{
+    margin-left: 10px;
+}
+.quick{
+    margin-left: 170px;
+}
+.follow{
+  
+    margin-left: 250px;
+   
+   
+}
+.social {
+    
+    background-image: url("https://static3.toyotabharat.com/images/sprite-1300x1200.png");
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+.social.whatsapp{
+   
+    background-position: 230px -21px;
+}
+.social.twitter{
+   
+    background-position:205px 3px; 
+    
+}
+.social.facebook{
+   
+    background-position: 183px 0px ;
+}
+.social.youtube{
+   
+    background-position: 162px 1px;
+}
+.social.instagram{
+   
+    background-position: 204px -21px;
+}
+.brand{
+    margin-left: 600px;
+    
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.brand_wrap{
+    background-image: url("https://static3.toyotabharat.com/images/sprite-1300x1200.png");
+    width: 179px;
+    height: 65px;
+    display: inline-block;
+    background-position: 478px -560px; 
+    transition: transform .5s;
+}
+.brand_wrap:hover{
+    opacity: 0.8;
+}
+.brands{
+    display: flex;
+   margin-bottom: 5px;
+    
+    margin-left: 420px;
+}
+.brands_wrap{
+    background-image: url("https://static3.toyotabharat.com/images/sprite-1300x1200.png");
+    height: 58px;
+    display: inline-block;
+    
+}
+.brands_wrap.t1{
+    background-position: 718px -52px;
+    width: 122px;
+}
+.brands_wrap.t2{
+    background-position: 1172px -53px;
+    width: 127px;
+}
+.brands_wrap.t3{
+    background-position: 1299px -53px;
+    width: 125px;
+}
+.brands_wrap.t4{
+    background-position: 777px -580px;
+    width: 125px;
+}  
